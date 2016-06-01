@@ -1,0 +1,22 @@
+{
+  "name": "reading-list",
+  "version": "1.0.0",
+  "description": "My reading list of academic papers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicola/reading-list"
+  },
+  "author": "Nicola Greco <me@nicola.io> (http://nicolagreco.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicola/reading-list/issues"
+  },
+  "homepage": "https://github.com/nicola/reading-list",
+  "dependencies": {
+    "bibtex-parse-js": "0.0.22"
+  }
+}
