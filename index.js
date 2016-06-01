@@ -21,7 +21,7 @@ console.log('Papers I am reading\n')
 
 const folders = fs.readdirSync('./bibs').filter(f => f !== '.DS_Store')
 folders.reverse().forEach(folder => {
-  console.log('##', folder)
+  console.log('##', folder.replace(/^[0-9]+ /, ''))
   const bibs = fs.readdirSync(path.join('./bibs/', folder)).filter(f => f !== '.DS_Store')
   bibs.forEach(bib => {
     let obj = parse(fs.readFileSync(path.join('./bibs/', folder, bib), 'utf8'))[0]
