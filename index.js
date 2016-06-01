@@ -13,7 +13,7 @@ function formatAuthors (authorsString) {
 }
 
 function formatTitle (titleString) {
-  return titleString.replace(/ +/, ' ')
+  return titleString.replace(/ +/, ' ').replace(/\{\}/, '*')
 }
 
 console.log('# reading-list')
