@@ -18,6 +18,7 @@ function formatTitle (titleString) {
 
 console.log('# reading-list')
 console.log('Papers I am reading\n')
+console.log('Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)\n')
 
 const folders = fs.readdirSync('./bibs').filter(f => f !== '.DS_Store')
 folders.reverse().forEach(folder => {
