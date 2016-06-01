@@ -1,12 +1,16 @@
 # reading-list
 Papers I am reading
 
-## 3 June 1, 2016
+
+ ## June 1, 2016 
+
 -  Yoad  Lewenberg and               Yonatan Sompolinsky and
                Aviv Zohar, **Inclusive Block Chain Protocols**, 2015
 -  Andrew Miller  et al., **Authenticated data structures, generically**, 2014
 -  Roberto  Tamassia, **Authenticated Data Structures**, 2003
-## 2 May 2016
+
+ ## May 2016 
+
 -  Miguel  Castro and               Barbara Liskov, **Practical Byzantine Fault Tolerance**, 1999
 -  Tej Chajed  et al., **Amber: Decoupling User Data from Web Applications**, 2015
 -  Ramesh Ch et al., **Separating Web Applications from User Data Storage with {BSTORE}**, 2010
@@ -21,7 +25,9 @@ Papers I am reading
 -  Ali, Muneeb  et al., **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, 2016
 -  Back, Adam  et al., **Enabling Blockchain Innovations with Pegged Sidechains**, 2014
 -  Frank Wang  et al., **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, 2016
-## 1 Jan-April 2016
+
+ ## Jan-April 2016 
+
 -  Atul Adya  et al., **Efficient Optimistic Concurrency Control Using Loosely Synchronized
                Clocks**, 1995
 -  Brian F. Cooper  et al., **{PNUTS:} Yahoo!'s hosted data serving platform**, 2008
@@ -41,7 +47,9 @@ Papers I am reading
 -  Matei Zaharia  et al., **Resilient Distributed Datasets: {A} Fault-Tolerant Abstraction for
                In-Memory Cluster Computing**, 2012
 -  Satoshi  Nakamoto, **Bitcoin: A peer-to-peer electronic cash system,” http://bitcoin.org/bitcoin.pdf**, 2008
-## 0 TO READ
+
+ ## TO READ 
+
 -  Marcos  Kawazoe Aguilera and               Sam Toueg, **Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus**, 1998
 -  Pierre{-}Louis Aublin  et al., **The Next 700 {BFT} Protocols**, 2015
