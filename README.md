@@ -2,14 +2,14 @@
 Papers I am reading
 
 
- ## June 1, 2016 
+## June 2016 
 
 -  Yoad  Lewenberg and               Yonatan Sompolinsky and
                Aviv Zohar, **Inclusive Block Chain Protocols**, 2015
 -  Andrew Miller  et al., **Authenticated data structures, generically**, 2014
 -  Roberto  Tamassia, **Authenticated Data Structures**, 2003
 
- ## May 2016 
+## May 2016 
 
 -  Miguel  Castro and               Barbara Liskov, **Practical Byzantine Fault Tolerance**, 1999
 -  Tej Chajed  et al., **Amber: Decoupling User Data from Web Applications**, 2015
@@ -26,7 +26,7 @@ Papers I am reading
 -  Back, Adam  et al., **Enabling Blockchain Innovations with Pegged Sidechains**, 2014
 -  Frank Wang  et al., **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, 2016
 
- ## Jan-April 2016 
+## Jan-April 2016 
 
 -  Atul Adya  et al., **Efficient Optimistic Concurrency Control Using Loosely Synchronized
                Clocks**, 1995
@@ -48,7 +48,7 @@ Papers I am reading
                In-Memory Cluster Computing**, 2012
 -  Satoshi  Nakamoto, **Bitcoin: A peer-to-peer electronic cash system,” http://bitcoin.org/bitcoin.pdf**, 2008
 
- ## TO READ 
+## TO READ 
 
 -  Marcos  Kawazoe Aguilera and               Sam Toueg, **Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus**, 1998
