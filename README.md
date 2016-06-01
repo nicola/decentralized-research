@@ -4,120 +4,73 @@ Papers I am reading
 
 ## June 2016 
 
--  **Inclusive Block Chain Protocols**, 2015
-   Yoad  Lewenberg and               Yonatan Sompolinsky and
-               Aviv Zohar
--  **Authenticated data structures, generically**, 2014
-   Andrew Miller  et al.
--  **Authenticated Data Structures**, 2003
-   Roberto  Tamassia
+-  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
+               Aviv Zohar, 2015
+-  **Authenticated data structures, generically**, Andrew Miller  et al., 2014
+-  **Authenticated Data Structures**, Roberto  Tamassia, 2003
 
 ## May 2016 
 
--  **Practical Byzantine Fault Tolerance**, 1999
-   Miguel  Castro and               Barbara Liskov
--  **Amber: Decoupling User Data from Web Applications**, 2015
-   Tej Chajed  et al.
--  **Separating Web Applications from User Data Storage with {BSTORE}**, 2010
-   Ramesh Ch et al.
--  **VerSum: Verifiable Computations over Large Public Logs**, 2014
-   Jelle  van den Hooff and               M. Frans Kaashoek and
-               Nickolai Zeldovich
--  **Why does cryptographic software fail?: a case study and open problems**, 2014
-   David Lazar  et al.
--  **Building Web Applications on Top of Encrypted Data Using Mylar**, 2014
-   Raluca Ada Popa  et al.
--  **Protecting Users by Confining JavaScript with {COWL}**, 2014
-   Deian Stefan  et al.
+-  **Practical Byzantine Fault Tolerance**, Miguel  Castro and               Barbara Liskov, 1999
+-  **Amber: Decoupling User Data from Web Applications**, Tej Chajed  et al., 2015
+-  **Separating Web Applications from User Data Storage with {BSTORE}**, Ramesh Ch et al., 2010
+-  **VerSum: Verifiable Computations over Large Public Logs**, Jelle  van den Hooff and               M. Frans Kaashoek and
+               Nickolai Zeldovich, 2014
+-  **Why does cryptographic software fail?: a case study and open problems**, David Lazar  et al., 2014
+-  **Building Web Applications on Top of Encrypted Data Using Mylar**, Raluca Ada Popa  et al., 2014
+-  **Protecting Users by Confining JavaScript with {COWL}**, Deian Stefan  et al., 2014
 -  **The Quest for Scalable Blockchain Fabric: Proof-of-Work vs. {BFT}
-               Replication**, 2015
-   Marko  Vukolic
--  **Toward Principled Browser Security**, 2013
-   Edward Z. Yang  et al.
--  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, 2016
-   Ali, Muneeb  et al.
--  **Enabling Blockchain Innovations with Pegged Sidechains**, 2014
-   Back, Adam  et al.
--  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, 2016
-   Frank Wang  et al.
+               Replication**, Marko  Vukolic, 2015
+-  **Toward Principled Browser Security**, Edward Z. Yang  et al., 2013
+-  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, Ali, Muneeb  et al., 2016
+-  **Enabling Blockchain Innovations with Pegged Sidechains**, Back, Adam  et al., 2014
+-  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, Frank Wang  et al., 2016
 
 ## Jan-April 2016 
 
 -  **Efficient Optimistic Concurrency Control Using Loosely Synchronized
-               Clocks**, 1995
-   Atul Adya  et al.
--  **{PNUTS:} Yahoo!'s hosted data serving platform**, 2008
-   Brian F. Cooper  et al.
--  **Dynamo: amazon's highly available key-value store**, 2007
-   Giuseppe DeC et al.
+               Clocks**, Atul Adya  et al., 1995
+-  **{PNUTS:} Yahoo!'s hosted data serving platform**, Brian F. Cooper  et al., 2008
+-  **Dynamo: amazon's highly available key-value store**, Giuseppe DeC et al., 2007
 -  **No compromises: distributed transactions with consistency, availability,
-               and performance**, 2015
-   Aleks et al.
+               and performance**, Aleks et al., 2015
 -  **TreadMarks: Distributed Shared Memory on Standard Workstations and
-               Operating Systems**, 1994
-   Peter J. Keleher  et al.
+               Operating Systems**, Peter J. Keleher  et al., 1994
 -  **Existential consistency: measuring and understanding consistency at
-               Facebook**, 2015
-   Haonan Lu  et al.
--  **In Search of an Understandable Consensus Algorithm**, 2014
-   Diego  Ongaro and               John K. Ousterhout
--  **Wormhole: Reliable Pub-Sub to Support Geo-replicated Internet Services**, 2015
-   Yogeshwer Sharma  et al.
--  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, 2001
-   Ion Stoica  et al.
+               Facebook**, Haonan Lu  et al., 2015
+-  **In Search of an Understandable Consensus Algorithm**, Diego  Ongaro and               John K. Ousterhout, 2014
+-  **Wormhole: Reliable Pub-Sub to Support Geo-replicated Internet Services**, Yogeshwer Sharma  et al., 2015
+-  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, Ion Stoica  et al., 2001
 -  **Managing Update Conflicts in Bayou, a Weakly Connected Replicated
-               Storage System**, 1995
-   Douglas B. Terry  et al.
--  **Large-scale cluster management at Google with Borg**, 2015
-   Abhishek Verma  et al.
+               Storage System**, Douglas B. Terry  et al., 1995
+-  **Large-scale cluster management at Google with Borg**, Abhishek Verma  et al., 2015
 -  **Resilient Distributed Datasets: {A} Fault-Tolerant Abstraction for
-               In-Memory Cluster Computing**, 2012
-   Matei Zaharia  et al.
--  **Bitcoin: A peer-to-peer electronic cash system,” http://bitcoin.org/bitcoin.pdf**, 2008
-   Satoshi  Nakamoto
+               In-Memory Cluster Computing**, Matei Zaharia  et al., 2012
+-  **Bitcoin: A peer-to-peer electronic cash system,” http://bitcoin.org/bitcoin.pdf**, Satoshi  Nakamoto, 2008
 
 ## TO READ 
 
 -  **Failure Detection and Randomization: {A} Hybrid Approach to Solve
-               Consensus**, 1998
-   Marcos  Kawazoe Aguilera and               Sam Toueg
--  **The Next 700 {BFT} Protocols**, 2015
-   Pierre{-}Louis Aublin  et al.
--  **State Machine Replication for the Masses with {BFT-SMART}**, 2014
-   Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
-               Eduardo Ad{\'{\i}}lio Pelinson Alchieri
+               Consensus**, Marcos  Kawazoe Aguilera and               Sam Toueg, 1998
+-  **The Next 700 {BFT} Protocols**, Pierre{-}Louis Aublin  et al., 2015
+-  **State Machine Replication for the Masses with {BFT-SMART}**, Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
+               Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
 -  **{SWIM:} Scalable Weakly-consistent Infection-style Process Group Membership
-               Protocol**, 2002
-   Abhin et al.
--  **Bitcoin meets strong consistency**, 2016
-   Christian  Decker and Jochen Seidel and Roger Wattenhofer
--  **Bitcoin-NG: {A} Scalable Blockchain Protocol**, 2015
-   Ittay Eyal  et al.
--  **Majority Is Not Enough: Bitcoin Mining Is Vulnerable**, 2014
-   Ittay  Eyal and               Emin G{\"{u}}n Sirer
--  **Impossibility of Distributed Consensus with One Faulty Process**, 1985
-   Michael  J. Fischer and               Nancy A. Lynch and
-               Mike Paterson
--  **Experiences with CoralCDN: {A} Five-Year Operational View**, 2010
-   Michael  J. Freedman
--  **Eclipse Attacks on Bitcoin's Peer-to-Peer Network**, 2015
-   Ethan Heilman  et al.
--  **Vuvuzela: scalable private messaging resistant to traffic analysis**, 2015
-   Jelle van den Hooff  et al.
--  **How to Use Bitcoin to Incentivize Correct Computations**, 2014
-   Ranjit  Kumaresan and               Iddo Bentov
--  **Secure Untrusted Data Repository {(SUNDR)}**, 2004
-   Jinyuan Li  et al.
--  **Rethinking State-Machine Replication for Parallelism**, 2014
-   Parisa Jalili Mar et al.
--  **The Honey Badger of {BFT} Protocols**, 2016
-   Andrew Miller  et al.
+               Protocol**, Abhin et al., 2002
+-  **Bitcoin meets strong consistency**, Christian  Decker and Jochen Seidel and Roger Wattenhofer, 2016
+-  **Bitcoin-NG: {A} Scalable Blockchain Protocol**, Ittay Eyal  et al., 2015
+-  **Majority Is Not Enough: Bitcoin Mining Is Vulnerable**, Ittay  Eyal and               Emin G{\"{u}}n Sirer, 2014
+-  **Impossibility of Distributed Consensus with One Faulty Process**, Michael  J. Fischer and               Nancy A. Lynch and
+               Mike Paterson, 1985
+-  **Experiences with CoralCDN: {A} Five-Year Operational View**, Michael  J. Freedman, 2010
+-  **Eclipse Attacks on Bitcoin's Peer-to-Peer Network**, Ethan Heilman  et al., 2015
+-  **Vuvuzela: scalable private messaging resistant to traffic analysis**, Jelle van den Hooff  et al., 2015
+-  **How to Use Bitcoin to Incentivize Correct Computations**, Ranjit  Kumaresan and               Iddo Bentov, 2014
+-  **Secure Untrusted Data Repository {(SUNDR)}**, Jinyuan Li  et al., 2004
+-  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
+-  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Cachet: a decentralized architecture for privacy preserving social
-               networking with caching**, 2012
-   Shirin Nilizadeh  et al.
--  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, 2010
-   Maxwell Young  et al.
--  **Consensus in a Box: Inexpensive Coordination in Hardware**, 2016
-   Zsolt Istv{\'a}n  et al.
--  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, 2015
-   David  Mazières
+               networking with caching**, Shirin Nilizadeh  et al., 2012
+-  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
+-  **Consensus in a Box: Inexpensive Coordination in Hardware**, Zsolt Istv{\'a}n  et al., 2016
+-  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015

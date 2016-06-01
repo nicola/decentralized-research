@@ -25,8 +25,7 @@ folders.reverse().forEach(folder => {
   const bibs = fs.readdirSync(path.join('./bibs/', folder)).filter(f => f !== '.DS_Store')
   bibs.forEach(bib => {
     let obj = parse(fs.readFileSync(path.join('./bibs/', folder, bib), 'utf8'))[0]
-    console.log('- ', `**${formatTitle(obj.entryTags.title)}**, ${obj.entryTags.year}`)
-    console.log(`   ${formatAuthors(obj.entryTags.author)}`)
+    console.log('- ', `**${formatTitle(obj.entryTags.title)}**, ${formatAuthors(obj.entryTags.author)}, ${obj.entryTags.year}`)
   })
 })
 
