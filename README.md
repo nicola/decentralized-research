@@ -75,4 +75,5 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                networking with caching**, Shirin Nilizadeh  et al., 2012
 -  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
 -  **Consensus in a Box: Inexpensive Coordination in Hardware**, Zsolt Istv{\'a}n  et al., 2016
+-  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
