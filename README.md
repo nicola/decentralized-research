@@ -10,6 +10,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                Aviv Zohar, 2015
 -  **Authenticated data structures, generically**, Andrew Miller  et al., 2014
 -  **Authenticated Data Structures**, Roberto  Tamassia, 2003
+-  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
 -  **Consensus in a Box: Inexpensive Coordination in Hardware**, Zsolt Istv{\'a}n  et al., 2016
 
 ## May 2016 
@@ -77,6 +78,5 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Cachet: a decentralized architecture for privacy preserving social
                networking with caching**, Shirin Nilizadeh  et al., 2012
 -  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
--  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
 -  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
