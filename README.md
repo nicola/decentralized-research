@@ -67,6 +67,8 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Experiences with CoralCDN: {A} Five-Year Operational View**, Michael  J. Freedman, 2010
 -  **Eclipse Attacks on Bitcoin's Peer-to-Peer Network**, Ethan Heilman  et al., 2015
 -  **Vuvuzela: scalable private messaging resistant to traffic analysis**, Jelle van den Hooff  et al., 2015
+-  **Enhancing Bitcoin Security and Performance with Strong Consistency
+               via Collective Signing**, Eleftherios Kokoris{-}Kogias  et al., 2016
 -  **How to Use Bitcoin to Incentivize Correct Computations**, Ranjit  Kumaresan and               Iddo Bentov, 2014
 -  **Secure Untrusted Data Repository {(SUNDR)}**, Jinyuan Li  et al., 2004
 -  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
@@ -74,6 +76,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Cachet: a decentralized architecture for privacy preserving social
                networking with caching**, Shirin Nilizadeh  et al., 2012
 -  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
+-  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
 -  **Consensus in a Box: Inexpensive Coordination in Hardware**, Zsolt Istv{\'a}n  et al., 2016
 -  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
