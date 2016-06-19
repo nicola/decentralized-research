@@ -56,6 +56,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 -  **Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus**, Marcos  Kawazoe Aguilera and               Sam Toueg, 1998
+-  **Extended Functionality in Verifiable Searchable Encryption**, James Alderman  et al., 2015
 -  **The Next 700 {BFT} Protocols**, Pierre{-}Louis Aublin  et al., 2015
 -  **State Machine Replication for the Masses with {BFT-SMART}**, Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
                Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
@@ -77,6 +78,13 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Cachet: a decentralized architecture for privacy preserving social
                networking with caching**, Shirin Nilizadeh  et al., 2012
+-  **Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
+               Structure**, Tobias  Pulls and               Roel Peeters, 2015
 -  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
+-  **Accountable Algorithms**, Kroll, Joshua A  et al., 2016
+-  **Equihash: Asymmetric proof-of-work based on the generalized birthday problem**, Biryukov,  Alex and Khovratovich, Dmitry, 2016
+-  **Egalitarian Computing**, Alex  Biryukov and Dmitry Khovratovich, 2016
+-  **Eventually Returning to Strong Consistency**, Vukolic,  Marko, 2016
 -  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
+-  **Towards an Internet of Trust**, Signorini,  Matteo, 2015
