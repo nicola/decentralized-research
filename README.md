@@ -6,9 +6,11 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## June 2016 
 
+-  **The Next 700 {BFT} Protocols**, Pierre{-}Louis Aublin  et al., 2015
 -  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
                Aviv Zohar, 2015
 -  **Authenticated data structures, generically**, Andrew Miller  et al., 2014
+-  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Authenticated Data Structures**, Roberto  Tamassia, 2003
 -  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
 -  **Consensus in a Box: Inexpensive Coordination in Hardware**, Zsolt Istv{\'a}n  et al., 2016
@@ -57,7 +59,6 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus**, Marcos  Kawazoe Aguilera and               Sam Toueg, 1998
 -  **Extended Functionality in Verifiable Searchable Encryption**, James Alderman  et al., 2015
--  **The Next 700 {BFT} Protocols**, Pierre{-}Louis Aublin  et al., 2015
 -  **State Machine Replication for the Masses with {BFT-SMART}**, Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
                Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
 -  **{SWIM:} Scalable Weakly-consistent Infection-style Process Group Membership
@@ -75,7 +76,6 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **How to Use Bitcoin to Incentivize Correct Computations**, Ranjit  Kumaresan and               Iddo Bentov, 2014
 -  **Secure Untrusted Data Repository {(SUNDR)}**, Jinyuan Li  et al., 2004
 -  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
--  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Cachet: a decentralized architecture for privacy preserving social
                networking with caching**, Shirin Nilizadeh  et al., 2012
 -  **Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
