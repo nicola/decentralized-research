@@ -34,10 +34,11 @@ folders.reverse().forEach(folder => {
     })
     .forEach(bib => {
       let obj = parse(fs.readFileSync(path.join('./bibs/', folder, bib), 'utf8'))[0]
+      const relevant = !!bib.match(/relevant/)
       let separator = '*'
-      if (bib.match(/relevant/)) {
+      if (relevant) {
         separator = '**'
       }
-      console.log('- ', `${separator}${formatTitle(obj.entryTags.title)}${separator}, ${formatAuthors(obj.entryTags.author)}, ${obj.entryTags.year}`)
+      console.log('- ', `${separator}${formatTitle(obj.entryTags.title)}${separator},` + (relevant ? formatAuthors(obj.entryTags.author) : '') + `${obj.entryTags.year}`)
     })
 })
