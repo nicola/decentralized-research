@@ -85,6 +85,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Equihash: Asymmetric proof-of-work based on the generalized birthday problem**, Biryukov,  Alex and Khovratovich, Dmitry, 2016
 -  **Egalitarian Computing**, Alex  Biryukov and Dmitry Khovratovich, 2016
 -  **Eventually Returning to Strong Consistency**, Vukolic,  Marko, 2016
+-  **Dynamic Scalable State Machine Replication**, Le, Long Hoang  et al., 2016
 -  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
 -  **Towards an Internet of Trust**, Signorini,  Matteo, 2015
