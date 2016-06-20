@@ -57,20 +57,15 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                In-Memory Cluster Computing**, Matei Zaharia  et al., 2012
 -  **Bitcoin: A peer-to-peer electronic cash system,” http://bitcoin.org/bitcoin.pdf**, Satoshi  Nakamoto, 2008
 
-## TO READ 
+## TO READ (priority) 
 
 -  **Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus**, Marcos  Kawazoe Aguilera and               Sam Toueg, 1998
 -  **Extended Functionality in Verifiable Searchable Encryption**, James Alderman  et al., 2015
--  **{SWIM:} Scalable Weakly-consistent Infection-style Process Group Membership
-               Protocol**, Abhin et al., 2002
 -  **Bitcoin meets strong consistency**, Christian  Decker and Jochen Seidel and Roger Wattenhofer, 2016
--  **Bitcoin-NG: {A} Scalable Blockchain Protocol**, Ittay Eyal  et al., 2015
--  **Majority Is Not Enough: Bitcoin Mining Is Vulnerable**, Ittay  Eyal and               Emin G{\"{u}}n Sirer, 2014
 -  **Impossibility of Distributed Consensus with One Faulty Process**, Michael  J. Fischer and               Nancy A. Lynch and
                Mike Paterson, 1985
 -  **Experiences with CoralCDN: {A} Five-Year Operational View**, Michael  J. Freedman, 2010
--  **Eclipse Attacks on Bitcoin's Peer-to-Peer Network**, Ethan Heilman  et al., 2015
 -  **Vuvuzela: scalable private messaging resistant to traffic analysis**, Jelle van den Hooff  et al., 2015
 -  **Enhancing Bitcoin Security and Performance with Strong Consistency
                via Collective Signing**, Eleftherios Kokoris{-}Kogias  et al., 2016
@@ -81,11 +76,19 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  **Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
                Structure**, Tobias  Pulls and               Roel Peeters, 2015
 -  **Practical Robust Communication in DHTs Tolerating a Byzantine Adversary**, Maxwell Young  et al., 2010
--  **Accountable Algorithms**, Kroll, Joshua A  et al., 2016
 -  **Equihash: Asymmetric proof-of-work based on the generalized birthday problem**, Biryukov,  Alex and Khovratovich, Dmitry, 2016
 -  **Egalitarian Computing**, Alex  Biryukov and Dmitry Khovratovich, 2016
 -  **Eventually Returning to Strong Consistency**, Vukolic,  Marko, 2016
 -  **Dynamic Scalable State Machine Replication**, Le, Long Hoang  et al., 2016
+-  **Towards an Internet of Trust**, Signorini,  Matteo, 2015
+
+## TO READ (non-priority) 
+
+-  **{SWIM:} Scalable Weakly-consistent Infection-style Process Group Membership
+               Protocol**, Abhin et al., 2002
+-  **Bitcoin-NG: {A} Scalable Blockchain Protocol**, Ittay Eyal  et al., 2015
+-  **Majority Is Not Enough: Bitcoin Mining Is Vulnerable**, Ittay  Eyal and               Emin G{\"{u}}n Sirer, 2014
+-  **Eclipse Attacks on Bitcoin's Peer-to-Peer Network**, Ethan Heilman  et al., 2015
+-  **Accountable Algorithms**, Kroll, Joshua A  et al., 2016
 -  **The bitcoin lightning network: Scalable off-chain instant payments**, Poon,  Joseph and Dryja, Thaddeus, 2015
 -  **The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus**, David  Mazières, 2015
--  **Towards an Internet of Trust**, Signorini,  Matteo, 2015
