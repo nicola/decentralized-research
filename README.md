@@ -11,6 +11,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
 -  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
                Aviv Zohar, 2015
+-  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
 -  **Authenticated data structures, generically**, Andrew Miller  et al., 2014
 -  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Authenticated Data Structures**, Roberto  Tamassia, 2003
@@ -75,7 +76,6 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                via Collective Signing**, Eleftherios Kokoris{-}Kogias  et al., 2016
 -  **How to Use Bitcoin to Incentivize Correct Computations**, Ranjit  Kumaresan and               Iddo Bentov, 2014
 -  **Secure Untrusted Data Repository {(SUNDR)}**, Jinyuan Li  et al., 2004
--  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
 -  **Cachet: a decentralized architecture for privacy preserving social
                networking with caching**, Shirin Nilizadeh  et al., 2012
 -  **Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
