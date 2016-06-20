@@ -39,6 +39,6 @@ folders.reverse().forEach(folder => {
       if (relevant) {
         separator = '**'
       }
-      console.log('- ', `${separator}${formatTitle(obj.entryTags.title)}${separator},` + (relevant ? formatAuthors(obj.entryTags.author) : '') + `${obj.entryTags.year}`)
+      console.log('- ', `${separator}${formatTitle(obj.entryTags.title)}${separator}, ` + (relevant ? formatAuthors(obj.entryTags.author) : '') + `${obj.entryTags.year}`)
     })
 })
