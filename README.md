@@ -1,7 +1,7 @@
 # reading-list
 Papers I am reading
 
-<span style="background:yellow;">Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)</span>
+<span style="background-color:yellow;">Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)</span>
 
 
 ## June 2016 
