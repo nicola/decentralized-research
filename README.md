@@ -1,14 +1,11 @@
 # reading-list
 Papers I am reading
 
-<span style="background-color:yellow;">Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)</span>
+Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
 
 ## June 2016 
 
--  The Next 700 {BFT} Protocols, Pierre{-}Louis Aublin  et al., 2015
--  State Machine Replication for the Masses with {BFT-SMART}, Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
-               Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
 -  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
                Aviv Zohar, 2015
 -  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
@@ -16,42 +13,45 @@ Papers I am reading
 -  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
 -  **Authenticated Data Structures**, Roberto  Tamassia, 2003
 -  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
+-  The Next 700 {BFT} Protocols, Pierre{-}Louis Aublin  et al., 2015
+-  State Machine Replication for the Masses with {BFT-SMART}, Alysson  Neves Bessani and               Jo{\~{a}}o Sousa and
+               Eduardo Ad{\'{\i}}lio Pelinson Alchieri, 2014
 -  Consensus in a Box: Inexpensive Coordination in Hardware, Zsolt Istv{\'a}n  et al., 2016
 
 ## May 2016 
 
 -  **Practical Byzantine Fault Tolerance**, Miguel  Castro and               Barbara Liskov, 1999
--  **Amber: Decoupling User Data from Web Applications**, Tej Chajed  et al., 2015
+-  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, Frank Wang  et al., 2016
 -  **Separating Web Applications from User Data Storage with {BSTORE}**, Ramesh Ch et al., 2010
 -  **VerSum: Verifiable Computations over Large Public Logs**, Jelle  van den Hooff and               M. Frans Kaashoek and
                Nickolai Zeldovich, 2014
--  Why does cryptographic software fail?: a case study and open problems, David Lazar  et al., 2014
+-  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, Ali, Muneeb  et al., 2016
 -  **Building Web Applications on Top of Encrypted Data Using Mylar**, Raluca Ada Popa  et al., 2014
--  Protecting Users by Confining JavaScript with {COWL}, Deian Stefan  et al., 2014
+-  **Amber: Decoupling User Data from Web Applications**, Tej Chajed  et al., 2015
 -  **The Quest for Scalable Blockchain Fabric: Proof-of-Work vs. {BFT}
                Replication**, Marko  Vukolic, 2015
 -  Toward Principled Browser Security, Edward Z. Yang  et al., 2013
--  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, Ali, Muneeb  et al., 2016
+-  Why does cryptographic software fail?: a case study and open problems, David Lazar  et al., 2014
 -  Enabling Blockchain Innovations with Pegged Sidechains, Back, Adam  et al., 2014
--  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, Frank Wang  et al., 2016
+-  Protecting Users by Confining JavaScript with {COWL}, Deian Stefan  et al., 2014
 
 ## Jan-April 2016 
 
--  Efficient Optimistic Concurrency Control Using Loosely Synchronized
-               Clocks, Atul Adya  et al., 1995
--  {PNUTS:} Yahoo!'s hosted data serving platform, Brian F. Cooper  et al., 2008
+-  **In Search of an Understandable Consensus Algorithm**, Diego  Ongaro and               John K. Ousterhout, 2014
 -  **Dynamo: amazon's highly available key-value store**, Giuseppe DeC et al., 2007
--  No compromises: distributed transactions with consistency, availability,
-               and performance, Aleks et al., 2015
+-  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, Ion Stoica  et al., 2001
+-  **Managing Update Conflicts in Bayou, a Weakly Connected Replicated
+               Storage System**, Douglas B. Terry  et al., 1995
 -  TreadMarks: Distributed Shared Memory on Standard Workstations and
                Operating Systems, Peter J. Keleher  et al., 1994
 -  Existential consistency: measuring and understanding consistency at
                Facebook, Haonan Lu  et al., 2015
--  **In Search of an Understandable Consensus Algorithm**, Diego  Ongaro and               John K. Ousterhout, 2014
+-  {PNUTS:} Yahoo!'s hosted data serving platform, Brian F. Cooper  et al., 2008
 -  Wormhole: Reliable Pub-Sub to Support Geo-replicated Internet Services, Yogeshwer Sharma  et al., 2015
--  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, Ion Stoica  et al., 2001
--  **Managing Update Conflicts in Bayou, a Weakly Connected Replicated
-               Storage System**, Douglas B. Terry  et al., 1995
+-  Efficient Optimistic Concurrency Control Using Loosely Synchronized
+               Clocks, Atul Adya  et al., 1995
+-  No compromises: distributed transactions with consistency, availability,
+               and performance, Aleks et al., 2015
 -  Large-scale cluster management at Google with Borg, Abhishek Verma  et al., 2015
 -  Resilient Distributed Datasets: {A} Fault-Tolerant Abstraction for
                In-Memory Cluster Computing, Matei Zaharia  et al., 2012
@@ -59,9 +59,9 @@ Papers I am reading
 
 ## TO READ (priority) 
 
+-  Secure Untrusted Data Repository {(SUNDR)}, Jinyuan Li  et al., 2004
 -  Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus, Marcos  Kawazoe Aguilera and               Sam Toueg, 1998
--  Extended Functionality in Verifiable Searchable Encryption, James Alderman  et al., 2015
 -  Bitcoin meets strong consistency, Christian  Decker and Jochen Seidel and Roger Wattenhofer, 2016
 -  Impossibility of Distributed Consensus with One Faulty Process, Michael  J. Fischer and               Nancy A. Lynch and
                Mike Paterson, 1985
@@ -70,7 +70,7 @@ Papers I am reading
 -  Enhancing Bitcoin Security and Performance with Strong Consistency
                via Collective Signing, Eleftherios Kokoris{-}Kogias  et al., 2016
 -  How to Use Bitcoin to Incentivize Correct Computations, Ranjit  Kumaresan and               Iddo Bentov, 2014
--  Secure Untrusted Data Repository {(SUNDR)}, Jinyuan Li  et al., 2004
+-  Extended Functionality in Verifiable Searchable Encryption, James Alderman  et al., 2015
 -  Cachet: a decentralized architecture for privacy preserving social
                networking with caching, Shirin Nilizadeh  et al., 2012
 -  Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
