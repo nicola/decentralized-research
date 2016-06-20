@@ -34,7 +34,7 @@ folders.reverse().forEach(folder => {
     })
     .forEach(bib => {
       let obj = parse(fs.readFileSync(path.join('./bibs/', folder, bib), 'utf8'))[0]
-      let separator = ''
+      let separator = '*'
       if (bib.match(/relevant/)) {
         separator = '**'
       }
