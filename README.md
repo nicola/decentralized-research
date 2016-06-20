@@ -7,28 +7,28 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 ## June 2016 
 
 -  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
-               Aviv Zohar2015
--  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al.2014
--  **Authenticated data structures, generically**, Andrew Miller  et al.2014
--  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al.2016
--  **Authenticated Data Structures**, Roberto  Tamassia2003
--  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al.2012
+               Aviv Zohar, 2015
+-  **Rethinking State-Machine Replication for Parallelism**, Parisa Jalili Mar et al., 2014
+-  **Authenticated data structures, generically**, Andrew Miller  et al., 2014
+-  **The Honey Badger of {BFT} Protocols**, Andrew Miller  et al., 2016
+-  **Authenticated Data Structures**, Roberto  Tamassia, 2003
+-  **A Critical Look at Decentralized Personal Data Architectures**, Arvind Narayanan  et al., 2012
 -  *The Next 700 {BFT} Protocols*, 2015
 -  *State Machine Replication for the Masses with {BFT-SMART}*, 2014
 -  *Consensus in a Box: Inexpensive Coordination in Hardware*, 2016
 
 ## May 2016 
 
--  **Practical Byzantine Fault Tolerance**, Miguel  Castro and               Barbara Liskov1999
--  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, Frank Wang  et al.2016
--  **Separating Web Applications from User Data Storage with {BSTORE}**, Ramesh Ch et al.2010
+-  **Practical Byzantine Fault Tolerance**, Miguel  Castro and               Barbara Liskov, 1999
+-  **Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Clouds**, Frank Wang  et al., 2016
+-  **Separating Web Applications from User Data Storage with {BSTORE}**, Ramesh Ch et al., 2010
 -  **VerSum: Verifiable Computations over Large Public Logs**, Jelle  van den Hooff and               M. Frans Kaashoek and
-               Nickolai Zeldovich2014
--  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, Ali, Muneeb  et al.2016
--  **Building Web Applications on Top of Encrypted Data Using Mylar**, Raluca Ada Popa  et al.2014
--  **Amber: Decoupling User Data from Web Applications**, Tej Chajed  et al.2015
+               Nickolai Zeldovich, 2014
+-  **Blockstack: Design and Implementation of a Global Naming System with Blockchains**, Ali, Muneeb  et al., 2016
+-  **Building Web Applications on Top of Encrypted Data Using Mylar**, Raluca Ada Popa  et al., 2014
+-  **Amber: Decoupling User Data from Web Applications**, Tej Chajed  et al., 2015
 -  **The Quest for Scalable Blockchain Fabric: Proof-of-Work vs. {BFT}
-               Replication**, Marko  Vukolic2015
+               Replication**, Marko  Vukolic, 2015
 -  *Toward Principled Browser Security*, 2013
 -  *Why does cryptographic software fail?: a case study and open problems*, 2014
 -  *Enabling Blockchain Innovations with Pegged Sidechains*, 2014
@@ -36,11 +36,11 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## Jan-April 2016 
 
--  **In Search of an Understandable Consensus Algorithm**, Diego  Ongaro and               John K. Ousterhout2014
--  **Dynamo: amazon's highly available key-value store**, Giuseppe DeC et al.2007
--  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, Ion Stoica  et al.2001
+-  **In Search of an Understandable Consensus Algorithm**, Diego  Ongaro and               John K. Ousterhout, 2014
+-  **Dynamo: amazon's highly available key-value store**, Giuseppe DeC et al., 2007
+-  **Chord: {A} scalable peer-to-peer lookup service for internet applications**, Ion Stoica  et al., 2001
 -  **Managing Update Conflicts in Bayou, a Weakly Connected Replicated
-               Storage System**, Douglas B. Terry  et al.1995
+               Storage System**, Douglas B. Terry  et al., 1995
 -  *TreadMarks: Distributed Shared Memory on Standard Workstations and
                Operating Systems*, 1994
 -  *Existential consistency: measuring and understanding consistency at
