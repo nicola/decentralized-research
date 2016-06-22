@@ -58,7 +58,8 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## TO READ (priority) 
 
--  *Secure Untrusted Data Repository {(SUNDR)}*, 2004
+-  *Cachet: a decentralized architecture for privacy preserving social
+               networking with caching*, 2012
 -  *Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus*, 1998
 -  *Bitcoin meets strong consistency*, 2016
@@ -68,9 +69,9 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  *Enhancing Bitcoin Security and Performance with Strong Consistency
                via Collective Signing*, 2016
 -  *How to Use Bitcoin to Incentivize Correct Computations*, 2014
+-  *Secure Untrusted Data Repository {(SUNDR)}*, 2004
 -  *Extended Functionality in Verifiable Searchable Encryption*, 2015
--  *Cachet: a decentralized architecture for privacy preserving social
-               networking with caching*, 2012
+-  *Pinocchio: Nearly practical verifiable computation*, 2013
 -  *Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
                Structure*, 2015
 -  *Practical Robust Communication in DHTs Tolerating a Byzantine Adversary*, 2010
