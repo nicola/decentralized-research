@@ -1,4 +1,4 @@
-THe Honey Badger of BFT Protocols
+The Honey Badger of BFT Protocols
 ---------------------------------
 
 Problem space:
