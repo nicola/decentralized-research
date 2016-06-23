@@ -24,8 +24,7 @@ Contributions:
   - not suited for mission-critical applications, e.g.: financial transactions
     - network links are unreliable, speed changes, delays can happen
 - Design: optimal asymptotic efficient async BFT protocol
-  - no timing assumption: messages are delivered eventually
-  - no tuning of params
+- Implementation: running on 100 nodes
 
 (Weakly) Synchronous protocols:
 - weak synchrony
@@ -36,5 +35,16 @@ Contributions:
   - **timeout params are difficult to tune**
 
 HB is an Asynchronous protocol:
+- No tuning of params
 - No Network timing assumption
-- Based on: Atomic Broadcast Protocol that achieves optimal asymptotic efficiency
+  - messages are delivered eventually
+- Based on:
+  - Byzantine Async consensus (at least 2/3 honest nodes)
+  - Asynchronous Atomic Broadcast Protocol
+    - achieves optimal asymptotic efficiency
+  - Async Common Subset
+- Claims
+  - Guarantees Fairness: adversary cannot significantly delay an honest party's request from being committed (?)
+  - Split the workload evenly amongst all nodes
+  - Decrease worst-case overhead from O(N^3) to O(N) for large batch sizes
+  - Adversary canno selectively censor specific transactions (because of threshold public key crypto)
