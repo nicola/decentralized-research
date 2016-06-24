@@ -110,8 +110,17 @@ ACS to RBC and ABA
 - Async Binary Byzantine Agreement, ABA: decide on a bit vector (indicates which RBC has succeded)
   - Agreement: all the nodes output the same bit
   - Termination: all correct nodes receive input, then they output a bit
-  - Validity: if node is correct outputs b, at least one correct node received b as an input
+  - Validity/unanimity: if node is correct outputs b, at least one correct node received b as an input
+    (? can we make this stronger)
     (? shouldn't it also be that for each all the other correct nodes deliver v, or is it because this is byzantine?)
+    - this means if all correct node receive b, b is decided; if two nodes receive
+- ACS
+  - proposal needs N-f nodes
+  - optimization:
+    - naive implementation: wait N-f broadcasts, then propose 1 & 0 for the others (? what is the problem)
+    - instead, wait from proposing 0, until the vector has at least N-f bits set (?)
+  - total communication complexity: O(N^2|v| lN^3logN)
+  
 
 Atomic Broadcast / HB
 - assumption:
@@ -145,3 +154,8 @@ HB is an Asynchronous protocol:
   - Split the workload evenly amongst all nodes
   - Efficiency: decrease worst-case overhead from O(N^3) to O(N) for large batch sizes (because of ACS)
   - No censorship: Adversary cannot selectively censor specific transactions (because of threshold public key crypto)
+- Analysis
+  - Agreement & total order:  threshold encryption
+  - Complexity: B=O(lN^2logN), O(logN)
+  - Efficiency: commits up to B tansactions (less because of overlapping transactions, B/4 is lower bound (?))
+  - Fairness: (?)
