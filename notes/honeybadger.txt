@@ -96,6 +96,22 @@ MVBA
 - MVBA is a bottleneck since it has an overhead of O(N^3|v|)
 
 ACS to RBC and ABA
+- Reliable Broadcast, RBC: used to disseminate a proposed value
+  - definition:
+    - Agreement: all the nodes deliver the same value
+    - Totality: if one correct nodes delivers v, all correct node deliver v (? flooding?)
+    - Validity: if sender is correct and inputs v, all the correct nodes deliver v
+  - optimization:
+    - classic reliable broadcasts O(N^2|v|)
+    - erasure coding:
+      - O(N|v| + lN^2logN) (significant improvement for larger messages)
+      - introduces constant overhead (N/N-2f) < 3 (?)
+      - if sender is correct, total running time is 3 rounds
+- Async Binary Byzantine Agreement, ABA: decide on a bit vector (indicates which RBC has succeded)
+  - Agreement: all the nodes output the same bit
+  - Termination: all correct nodes receive input, then they output a bit
+  - Validity: if node is correct outputs b, at least one correct node received b as an input
+    (? shouldn't it also be that for each all the other correct nodes deliver v, or is it because this is byzantine?)
 
 Atomic Broadcast / HB
 - assumption:
