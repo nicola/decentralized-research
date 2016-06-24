@@ -74,7 +74,7 @@ Atomic Broadcast
   - efficiency: (?) E[communication cost for each node/all committed transactions]
   - fairness: tx is input to N-f correct nodes, T is input-committed, E[rounds before tx is output]
 
-co
+Async Common Subset (ACS) (?)
 
 Atomic Broadcast / HB
 - assumption:
