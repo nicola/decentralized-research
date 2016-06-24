@@ -159,3 +159,5 @@ HB is an Asynchronous protocol:
   - Complexity: B=O(lN^2logN), O(logN)
   - Efficiency: commits up to B tansactions (less because of overlapping transactions, B/4 is lower bound (?))
   - Fairness: (?)
+
+Q: is async with no leader?
