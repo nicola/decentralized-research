@@ -47,22 +47,63 @@ Deterministic Async Agreement
 - partial synchrony (? definition)
   - unknown-Δ-synchrony: unable to know
   - eventual synchrony: guaranteed to hold after some (unknown) instant
+    - ^ rely on timeouts to cope with crashes
+    - estimate too low, system makes no progress
+    - estimate too high, underutilizes bandwith
 - weak synchrony: delay bound is time varying but eventually not faster than poly(t) (? is this partial sync)
   - in practice, this is implemented via some sort of exponential backoff
   - hence, delays when recovering form network partitions
+  - avoid specifying any absolute delay
+  - must specify a "gain"
 
 Async Agreement: do not rely on timers, make progress when messages get delivered
 - use causal clocks (?): make sure that every message will be delivered in order
 
+Atomic Broadcast
+- setting: N nodes with distinct identities
+- goal:
+  - input: nodes receive transactions
+  - output: reach common agreement on the ordering
+- definition:
+  - committed: when value is output by a node (in practice, when a node collects signatures from majority (N/2+1))
+- properties:
+  - Agreement: any node outputs tx, every correct node outputs tx
+  - Total Order: output sequence is the same in every node
+  - Validity/Censorship resilience: if tx is input in N-f nodes (so N=3f+1-f = 2f+1), then it is output by a correct node (?)
+- performance metrics:
+  - efficiency: (?) E[communication cost for each node/all committed transactions]
+  - fairness: tx is input to N-f correct nodes, T is input-committed, E[rounds before tx is output]
+
+co
+
+Atomic Broadcast / HB
+- assumption:
+  - Purely async network
+    - secure channels between nodes
+    - delivery is determined by adversary
+    - every message between correct nodes must be delivered (?)
+    - nodes have unbounded buffer
+  - Static Byzantine Faults: max number of adversary is f, where N=3f+1
+  - Trusted Setup
+
 HB is an Asynchronous protocol:
-- No tuning of params
-- No Network timing assumption
-  - messages are delivered eventually
+- Overview
+  - Nodes receive transactions & store them in unbounded buffer
+  - At the beginning of each epoch
+    - node choose subset of their buffer
+      - random choice to have disjoint proposed sets of transactions
+      - threshold encryption to hide proposals (to )
+    - input this to an instance of randomized agreement protocol
+  - At the end of each epoch
+    - final set of transaction is chosen
+      - each node outputs a vector with at least N-2f correct nodes (? shouldn't this be N-f)
+    - new batch of transactions is appended to the log
 - Based on:
   - Byzantine Async consensus (at least 2/3 honest nodes)
   - Async Common Subset (and MVBA)
   - Threshold encryption
 - Claims
+  - No network assumption (and no tuning of params)
   - Fairness: adversary cannot significantly delay an honest party's request from being committed (?)
   - Split the workload evenly amongst all nodes
   - Efficiency: decrease worst-case overhead from O(N^3) to O(N) for large batch sizes (because of ACS)
