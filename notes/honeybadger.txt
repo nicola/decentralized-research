@@ -75,6 +75,27 @@ Atomic Broadcast
   - fairness: tx is input to N-f correct nodes, T is input-committed, E[rounds before tx is output]
 
 Async Common Subset (ACS) (?)
+- properties:
+  - validity: correct node outputs v, |v| >= N-f (?), v contains inputs of at least N-2f (?)
+  - agreement: correct process outputs v, every process outputs v (? what is the difference between node and process?)
+  - totality: input to N-f correct process, output from N-f correct
+
+Threshold encryption, TPKE
+- allow any party to encrypt a message with master pub key
+- can be decrypted once f+1 (?) correct nodes reveal shares (? does this need f+1 of the network to propose?)
+
+Atomic Broadcast to ACS
+- Node propose B/N (? is N the number of nodes?) transactions from his queue
+- Communication cost O(N^2|v| + lN^3log(N)), so choose B equal to it (?)
+- Threshold encryption for fairness: adversaries cannot prevent transactions from being committed
+
+MVBA
+- Nodes propose values satisfying a validation predicate (? predicate?)
+- Validation predicate: output must be a vector of signed inputs by N-f parties
+- One value is chosen
+- MVBA is a bottleneck since it has an overhead of O(N^3|v|)
+
+ACS to RBC and ABA
 
 Atomic Broadcast / HB
 - assumption:
