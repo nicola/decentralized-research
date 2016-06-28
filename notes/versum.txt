@@ -18,8 +18,11 @@ Versum: Verifiable Computations over Large Public Logs
 - SEQHASH
 
 - Authenticated Data Structures
-  - allow client to outsource storage of large dataset without trusting the server
+  - allow client to outsource storage (and lookup in storage) of large datasets without trusting the server
   - client stores a small authenticator that summarized the data stored
+  - (following Miller's ADS paper) programmer can write simple look up function, hash computation and verification is handled automatically
+  - computing on authenticated data structures does not mean to outsource the entire computation, instead client must still perform the computation itself
+  - ! use ADS only for storage
 
 --
 
