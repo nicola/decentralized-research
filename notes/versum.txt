@@ -15,6 +15,8 @@ Versum: Verifiable Computations over Large Public Logs
 - Probabilistically Checkable Proofs
   - Not practical
 
+- SEQHASH
+
 --
 
 Problem
@@ -42,3 +44,5 @@ Design
 - 
 
 Performance
+- 365 GB (from 14GB)
+- server can serve 4000 queries per second
