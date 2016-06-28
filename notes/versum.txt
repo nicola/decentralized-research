@@ -7,6 +7,11 @@ Versum: Verifiable Computations over Large Public Logs
   - Assumption: Not all the servers are compromised
   - In case of disagreement, the referee (the client) will resolve the conflict by performing a single step of computation
 
+- Quin's Protocol
+  - splits the computation in many parts and finds the first point of disagreement
+  - determines which server made a mistake
+  - continues with the honest node
+
 - Probabilistically Checkable Proofs
   - Not practical
 
@@ -25,13 +30,15 @@ Assumptions
 Contributions
 - low-server side overhead for re-computation and conflict resolution
   - computation as functional programs (memoization)
+    - no global state
   - recording evaluation trace in a computation history (easy to evaluate where servers made mistakes)
   - new authenticated data structure for sequences
+- (Compared to Quin) supports incremental updates of inputs
+  - (Quin)handling updates one by one does not scale, since it means re-running the computation
+  - (Versum) reuses the old computation
 
 Design
 - Lightclient sends a computation to a pool of independent
 - 
 
 Performance
-
-Improvements
