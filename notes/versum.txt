@@ -17,6 +17,10 @@ Versum: Verifiable Computations over Large Public Logs
 
 - SEQHASH
 
+- Authenticated Data Structures
+  - allow client to outsource storage of large dataset without trusting the server
+  - client stores a small authenticator that summarized the data stored
+
 --
 
 Problem
