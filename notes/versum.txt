@@ -1,3 +1,37 @@
 Versum: Verifiable Computations over Large Public Logs
 ------------------------------------------------------
 
+- Refereed delegation of computation, RDoC
+  - Problem: Delegating computation, clients want to know if the computation has been done correctly. For example, relying on the majority of agreeing servers is not a guarantee that the computation has been done correctly.
+  - Problem: It is not practical for the client to execute code themselves
+  - Assumption: Not all the servers are compromised
+  - In case of disagreement, the referee (the client) will resolve the conflict by performing a single step of computation
+
+- Probabilistically Checkable Proofs
+  - Not practical
+
+--
+
+Problem
+Blockchains, Certificate Transparency & co have large and frequently changing authenticated data structures and doing computation on those could be expensive for lightweight clients.
+
+Claim
+- Securely outsourcing expensive computation over large and frequently changing data structures
+- A lightweight client can outsource a computation over Bitcoin blockchain to a pool of independent servers and can determine correct result as long as it reaches one honest server
+
+Assumptions
+- Any-trust model: At least one server is honest when servers disagree or no every server can be compromised
+
+Contributions
+- low-server side overhead for re-computation and conflict resolution
+  - computation as functional programs (memoization)
+  - recording evaluation trace in a computation history (easy to evaluate where servers made mistakes)
+  - new authenticated data structure for sequences
+
+Design
+- Lightclient sends a computation to a pool of independent
+- 
+
+Performance
+
+Improvements
