@@ -6,16 +6,31 @@ Versum: Verifiable Computations over Large Public Logs
   - Problem: It is not practical for the client to execute code themselves
   - Assumption: Not all the servers are compromised
   - In case of disagreement, the referee (the client) will resolve the conflict by performing a single step of computation
+  - [ ] type of attack: make sure there is always a bad server?
 
 - Quin's Protocol
   - splits the computation in many parts and finds the first point of disagreement
   - determines which server made a mistake
   - continues with the honest node
+  - does not support incremental re-computation: if input changes, TM must be re-run completely
 
 - Probabilistically Checkable Proofs
   - Not practical
 
 - SEQHASH
+  - deterministic hash-tree for holding sequences that supportsefficient:
+    - concatenation
+    - comparison
+    - indexing
+
+- Computation histories
+  - (state) log of the evaluation of the program, series of function calls (w/ name and arguments) and return statements (w/ value)
+  - (reusable) this can be reused, instead of Quin's TM, computation histories are stateless
+  - (extendible) 
+
+- `DetermineNext`
+  - includes inputs and outputs in clear
+  
 
 - Authenticated Data Structures
   - allow client to outsource storage (and lookup in storage) of large datasets without trusting the server
@@ -39,8 +54,9 @@ Assumptions
 Contributions
 - low-server side overhead for re-computation and conflict resolution
   - computation as functional programs (memoization)
-    - no global state
+    - no global state, self-contained, no side effect
   - recording evaluation trace in a computation history (easy to evaluate where servers made mistakes)
+    - [ ] can a server still be ADS correct, but lie about the data? Will the client need to store the blockchain?
   - new authenticated data structure for sequences
 - (Compared to Quin) supports incremental updates of inputs
   - (Quin)handling updates one by one does not scale, since it means re-running the computation
