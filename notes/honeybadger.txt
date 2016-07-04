@@ -1,0 +1,163 @@
+The Honey Badger of BFT Protocols
+---------------------------------
+
+Problem space:
+- Mission-critical infrastructures
+  - Definition: Failure or disruption of mission critical factors will result in serious impact
+  - Example: Banking system, railway and aircraft operating and control system, electric power systems, and many other computer systems that will affect the business and society seriously if downed.
+  - Traditionally: small scale
+    - few nodes
+    - single administrator
+    - adversarial attacks are not primary concern
+  - Challenge: distributed fault tolerant protocols
+    - many nodes
+    - nodes are mutually distrustful
+    - network and nodes can be adversarial
+  - Design compromise
+    - **robustness over performance**
+    - **throughput over latency**
+      -  visa processes 2000 tx/sec (peaks of 59000 tx/sec)
+
+Contributions:
+- Show: **Network timing assumptions are harmful**
+  - liveness not guaranteed if network behaves maliciously (since it violates timing assumptions)
+  - not suited for mission-critical applications, e.g.: financial transactions
+    - network links are unreliable, speed changes, delays can happen
+- Design:
+  - Reduction from Atomic Broadcast to Atomic Common Subset
+    - optimal asymptotic efficient async BFT protocol)
+    - achieves optimal asymptotic efficiency O(N) compared to O(N^3)
+    - threshold encryption preserves fairness
+- Implementation: running on 100 nodes
+
+(Weakly) Synchronous protocols:
+- weak synchrony
+  - messages are guaranteed to be delivered after Δ (Δ can be time varying or unknown)
+- problems:
+  - **liveness is not guaranteed** with if network timing assumption are violated
+  - **throughput degrades** if network is unpredictable
+  - **timeout params are difficult to tune**
+
+Deterministic Async Agreement
+- FLP result: impossibility of consensus with one faulty process
+- Impossible for most tasks
+
+*-Sync Agreement: rely on timing assumptions (consider Δ as a measure of real time)
+- strong, Δ-synchrony assumption: every message is delivered in no longer than Δ
+- partial synchrony (? definition)
+  - unknown-Δ-synchrony: unable to know
+  - eventual synchrony: guaranteed to hold after some (unknown) instant
+    - ^ rely on timeouts to cope with crashes
+    - estimate too low, system makes no progress
+    - estimate too high, underutilizes bandwith
+- weak synchrony: delay bound is time varying but eventually not faster than poly(t) (? is this partial sync)
+  - in practice, this is implemented via some sort of exponential backoff
+  - hence, delays when recovering form network partitions
+  - avoid specifying any absolute delay
+  - must specify a "gain"
+
+Async Agreement: do not rely on timers, make progress when messages get delivered
+- use causal clocks (?): make sure that every message will be delivered in order
+
+Atomic Broadcast
+- setting: N nodes with distinct identities
+- goal:
+  - input: nodes receive transactions
+  - output: reach common agreement on the ordering
+- definition:
+  - committed: when value is output by a node (in practice, when a node collects signatures from majority (N/2+1))
+- properties:
+  - Agreement: any node outputs tx, every correct node outputs tx
+  - Total Order: output sequence is the same in every node
+  - Validity/Censorship resilience: if tx is input in N-f nodes (so N=3f+1-f = 2f+1), then it is output by a correct node (?)
+- performance metrics:
+  - efficiency: (?) E[communication cost for each node/all committed transactions]
+  - fairness: tx is input to N-f correct nodes, T is input-committed, E[rounds before tx is output]
+
+Async Common Subset (ACS) (?)
+- properties:
+  - validity: correct node outputs v, |v| >= N-f (?), v contains inputs of at least N-2f (?)
+  - agreement: correct process outputs v, every process outputs v (? what is the difference between node and process?)
+  - totality: input to N-f correct process, output from N-f correct
+
+Threshold encryption, TPKE
+- allow any party to encrypt a message with master pub key
+- can be decrypted once f+1 (?) correct nodes reveal shares (? does this need f+1 of the network to propose?)
+
+Atomic Broadcast to ACS
+- Node propose B/N (? is N the number of nodes?) transactions from his queue
+- Communication cost O(N^2|v| + lN^3log(N)), so choose B equal to it (?)
+- Threshold encryption for fairness: adversaries cannot prevent transactions from being committed
+
+MVBA
+- Nodes propose values satisfying a validation predicate (? predicate?)
+- Validation predicate: output must be a vector of signed inputs by N-f parties
+- One value is chosen
+- MVBA is a bottleneck since it has an overhead of O(N^3|v|)
+
+ACS to RBC and ABA
+- Reliable Broadcast, RBC: used to disseminate a proposed value
+  - definition:
+    - Agreement: all the nodes deliver the same value
+    - Totality: if one correct nodes delivers v, all correct node deliver v (? flooding?)
+    - Validity: if sender is correct and inputs v, all the correct nodes deliver v
+  - optimization:
+    - classic reliable broadcasts O(N^2|v|)
+    - erasure coding:
+      - O(N|v| + lN^2logN) (significant improvement for larger messages)
+      - introduces constant overhead (N/N-2f) < 3 (?)
+      - if sender is correct, total running time is 3 rounds
+- Async Binary Byzantine Agreement, ABA: decide on a bit vector (indicates which RBC has succeded)
+  - Agreement: all the nodes output the same bit
+  - Termination: all correct nodes receive input, then they output a bit
+  - Validity/unanimity: if node is correct outputs b, at least one correct node received b as an input
+    (? can we make this stronger)
+    (? shouldn't it also be that for each all the other correct nodes deliver v, or is it because this is byzantine?)
+    - this means if all correct node receive b, b is decided; if two nodes receive
+- ACS
+  - proposal needs N-f nodes
+  - optimization:
+    - naive implementation: wait N-f broadcasts, then propose 1 & 0 for the others (? what is the problem)
+    - instead, wait from proposing 0, until the vector has at least N-f bits set (?)
+  - total communication complexity: O(N^2|v| lN^3logN)
+  
+
+Atomic Broadcast / HB
+- assumption:
+  - Purely async network
+    - secure channels between nodes
+    - delivery is determined by adversary
+    - every message between correct nodes must be delivered (?)
+    - nodes have unbounded buffer
+  - Static Byzantine Faults: max number of adversary is f, where N=3f+1
+  - Trusted Setup
+
+HB is an Asynchronous protocol:
+- Overview
+  - Nodes receive transactions & store them in unbounded buffer
+  - At the beginning of each epoch
+    - node choose subset of their buffer
+      - random choice to have disjoint proposed sets of transactions
+      - threshold encryption to hide proposals (to )
+    - input this to an instance of randomized agreement protocol
+  - At the end of each epoch
+    - final set of transaction is chosen
+      - each node outputs a vector with at least N-2f correct nodes (? shouldn't this be N-f)
+    - new batch of transactions is appended to the log
+- Based on:
+  - Byzantine Async consensus (at least 2/3 honest nodes)
+  - Async Common Subset (and MVBA)
+  - Threshold encryption
+- Claims
+  - No network assumption (and no tuning of params)
+  - Fairness: adversary cannot significantly delay an honest party's request from being committed (?)
+  - Split the workload evenly amongst all nodes
+  - Efficiency: decrease worst-case overhead from O(N^3) to O(N) for large batch sizes (because of ACS)
+  - No censorship: Adversary cannot selectively censor specific transactions (because of threshold public key crypto)
+- Analysis
+  - Agreement & total order:  threshold encryption
+  - Complexity: B=O(lN^2logN), O(logN)
+  - Efficiency: commits up to B tansactions (less because of overlapping transactions, B/4 is lower bound (?))
+  - Fairness: (?)
+
+Q: is async with no leader?

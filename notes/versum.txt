@@ -1,0 +1,89 @@
+Versum: Verifiable Computations over Large Public Logs
+------------------------------------------------------
+
+- Refereed delegation of computation, RDoC
+  - Problem: Delegating computation, clients want to know if the computation has been done correctly. For example, relying on the majority of agreeing servers is not a guarantee that the computation has been done correctly.
+  - Problem: It is not practical for the client to execute code themselves
+  - Assumption: Not all the servers are compromised
+  - In case of disagreement, the referee (the client) will resolve the conflict by performing a single step of computation
+  - [ ] type of attack: make sure there is always a bad server?
+
+- Quin's Protocol
+  - splits the computation in many parts and finds the first point of disagreement
+  - determines which server made a mistake
+  - continues with the honest node
+  - does not support incremental re-computation: if input changes, TM must be re-run completely
+
+- Probabilistically Checkable Proofs
+  - Not practical
+
+- SEQHASH
+  - deterministic (forest of balanced binary) hash-tree for holding sequences that supports efficient:
+    - lookup
+    - concatenation
+    - comparison
+    - indexing
+  - start: all the elements of a sequence are leaves
+  - merge rounds: merge adjacent pairs of inputs (till no input is left)
+    - each round calculates 1 bit (0,1), hashing the value of the node,
+    - two nodes are merged when two adjacent node are 1, 0
+    - [ ] fraction of max unmerged nodes is 1/3 ?
+    - [ ] coming up with random bit sequences that do not merge in k is exponential
+  - end: we hash the roots of all the trees
+
+- Computation histories
+  - (state) log of the evaluation of the program, series of function calls (w/ name and arguments) and return statements (w/ value)
+  - (reusable) this can be reused, instead of Quin's TM, computation histories are stateless
+  - (extendible) 
+
+- `DetermineNext`
+  - includes inputs and outputs in clear
+  - input is computational history
+  - determines next step (the innermost incomplete not yet returned function call)
+  - appends it to the history
+  
+
+- Authenticated Data Structures
+  - allow client to outsource storage (and lookup in storage) of large datasets without trusting the server
+  - client stores a small authenticator that summarized the data stored
+  - (following Miller's ADS paper) programmer can write simple look up function, hash computation and verification is handled automatically
+  - computing on authenticated data structures does not mean to outsource the entire computation, instead client must still perform the computation itself
+  - ! use ADS only for storage
+
+--
+
+Problem
+Blockchains, Certificate Transparency & co have large and frequently changing authenticated data structures and doing computation on those could be expensive for lightweight clients.
+
+Claim
+- Securely outsourcing expensive computation over large and frequently changing data structures
+- A lightweight client can outsource a computation over Bitcoin blockchain to a pool of independent servers and can determine correct result as long as it reaches one honest server
+- Versum conflict resolution takes poly log in the time of the computation (Quin, linear)
+
+Assumptions
+- Any-trust model: At least one server is honest when servers disagree or no every server can be compromised
+
+Contributions
+- low-server side overhead for re-computation and conflict resolution
+  - computation as functional programs (memoization)
+    - no global state, self-contained, no side effect
+  - recording evaluation trace in a computation history (easy to evaluate where servers made mistakes)
+    - [ ] can a server still be ADS correct, but lie about the data? Will the client need to store the blockchain?
+  - new authenticated data structure for sequences
+- (Compared to Quin) supports incremental updates of inputs
+  - (Quin)handling updates one by one does not scale, since it means re-running the computation
+  - (Versum) reuses the old computation
+
+Design
+- Lightclient sends a computation to a pool of independent
+- 
+
+Performance
+- 365 GB (from 14GB)
+- server can serve 4000 queries per second
+
+--
+
+Comments:
+- parameter: length of the computation history
+- parameter: number of machines to trust (sybil attack?)
