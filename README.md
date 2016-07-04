@@ -16,6 +16,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  *The Next 700 {BFT} Protocols*, 2015
 -  *State Machine Replication for the Masses with {BFT-SMART}*, 2014
 -  *Consensus in a Box: Inexpensive Coordination in Hardware*, 2016
+-  *{Scalability! But at what COST?}*, 2015
 
 ## May 2016 
 
@@ -58,8 +59,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## TO READ (priority) 
 
--  *Cachet: a decentralized architecture for privacy preserving social
-               networking with caching*, 2012
+-  *Pinocchio: Nearly practical verifiable computation*, 2013
 -  *Failure Detection and Randomization: {A} Hybrid Approach to Solve
                Consensus*, 1998
 -  *Bitcoin meets strong consistency*, 2016
@@ -70,15 +70,18 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
                via Collective Signing*, 2016
 -  *How to Use Bitcoin to Incentivize Correct Computations*, 2014
 -  *Secure Untrusted Data Repository {(SUNDR)}*, 2004
+-  *Cachet: a decentralized architecture for privacy preserving social
+               networking with caching*, 2012
 -  *Extended Functionality in Verifiable Searchable Encryption*, 2015
--  *Pinocchio: Nearly practical verifiable computation*, 2013
 -  *Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
                Structure*, 2015
 -  *Practical Robust Communication in DHTs Tolerating a Byzantine Adversary*, 2010
 -  *Equihash: Asymmetric proof-of-work based on the generalized birthday problem*, 2016
+-  *CONIKS: Bringing Key Transparency to End Users*, 2015
 -  *Egalitarian Computing*, 2016
 -  *Eventually Returning to Strong Consistency*, 2016
 -  *Dynamic Scalable State Machine Replication*, 2016
+-  *{Consensus in the Presence of Partial Synchrony}*, 1988
 -  *Towards an Internet of Trust*, 2015
 
 ## TO READ (non-priority) 
