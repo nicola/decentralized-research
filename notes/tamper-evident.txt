@@ -64,6 +64,12 @@ Merkle tree
 - hash at the root is tamper-evident
 - logarithmic path lengths from root to leaves
 
+Hashchain
+- incremental or membership proof between two commitment taken O(n)
+- feasible only if
+  - event in low volume
+  - every auditor is receiving every event (why not in history trees?)
+
 (Merkle) History Tree
 - frequent auditing is required
 - versioned computation of hashes over the merkle tree (to efficiently prove log snapshots)
