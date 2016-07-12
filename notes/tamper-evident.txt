@@ -1,0 +1,65 @@
+Tamper evident logs
+-------------------
+
+SUNDR & Version Vectors
+- only trusted clients sign updates
+
+Untrusted logger
+- author of the log builds and signs it
+- can have different snapshots make inconsistent claims about the past
+- need auditor to prevent tampering
+- proving internal consistency requires scanning of the full contents of the log
+
+Attacks by untrusted logger
+- just-added event
+- returned commitment (?)
+- all that would make an event undiscovered
+
+History Tree
+- Tamper-evident log
+- frequent auditing is required
+- tree-based history data structure
+  - logarithmic for all auditing and lookup operation
+  - loggers can efficiently prove their sequence makes consistent claims
+
+Incremental proofs:
+(sequence of logs is consistent over time)
+- prove current commitment and prior commitment makes consistent claims
+
+
+Membership proofs:
+(event has been logged in some log)
+- ask the logger to return a particular event from the log
+- the event is consistent with the previous commitment
+- performed by:
+  - clients: new events are correctly inserted
+  - auditors: old events are present and unaltered
+
+Proving consistency:
+- a commitment C_i has events X_0,..,X_i, commitment C_j has events X_0',..,X_i'
+- we will need to prove their correspondence
+
+Merkle Aggregation
+
+--
+
+Security model
+- cryptographic assumptions (hash + sign)
+- at least one auditor is assumed to be incorruptible
+
+Goal
+- detect tampering
+
+Design
+- clients
+  - generate events
+  - limited storage
+- logger
+  - centralized, but untrusted
+  - unlimited storage
+  - must prove its correct behavioir
+- auditor
+  - trusted
+  - limited storage
+  - audit published commitments and demand proofs
+  - ensure integrity (and consistency?) is mantained
