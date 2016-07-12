@@ -15,17 +15,28 @@ Attacks by untrusted logger
 - returned commitment (?)
 - all that would make an event undiscovered
 
-History Tree
-- Tamper-evident log
-- frequent auditing is required
-- tree-based history data structure
-  - logarithmic for all auditing and lookup operation
-  - loggers can efficiently prove their sequence makes consistent claims
+History consistency
+(two commitments commit consistent history, then they must both fix the same event)
+- dishonest logger attempts to tampter his history by rolling back to the log
+- creates a new fork
+- insert a new event
+- (auditor will detect this)
+- (logger is unable to generate incremental proof)
+
+Freshness
+
+Forward integrity
+- clients are trusted and loggers are honest
+- loggers must be prevented from tampering the logs previous to a byz failure
+- allowes to tamper after the failure
+
+Prevent rollback attacks
+- non-interactive: O(n) on the commitment size
+- interactive: logger cooperate in generating proofs
 
 Incremental proofs:
 (sequence of logs is consistent over time)
 - prove current commitment and prior commitment makes consistent claims
-
 
 Membership proofs:
 (event has been logged in some log)
@@ -35,9 +46,32 @@ Membership proofs:
   - clients: new events are correctly inserted
   - auditors: old events are present and unaltered
 
+Client insertion protocol:
+- clients receive commitment from the logger
+- distribute commitment to auditors
+  - prevents clients from colluding with the logger to roll back and modify (rollback attack)
+- gossip to distribute signed commitments
+- (or logger makes their log public)
+- it is important that auditors receive diverse collection of commitments and ask for incremental proofs to verify logger's consistency
+
 Proving consistency:
 - a commitment C_i has events X_0,..,X_i, commitment C_j has events X_0',..,X_i'
 - we will need to prove their correspondence
+
+Merkle tree
+- authenticating static data
+- data stored at the leaves
+- hash at the root is tamper-evident
+- logarithmic path lengths from root to leaves
+
+(Merkle) History Tree
+- frequent auditing is required
+- versioned computation of hashes over the merkle tree (to efficiently prove log snapshots)
+- each merkle tree has a consistent root hash
+- tree-based history data structure
+  - logarithmic for all auditing and lookup operation
+  - loggers can efficiently prove their sequence makes consistent claims
+
 
 Merkle Aggregation
 
@@ -63,3 +97,18 @@ Design
   - limited storage
   - audit published commitments and demand proofs
   - ensure integrity (and consistency?) is mantained
+
+API
+- log H, proof P
+- H.Add(X) -> C_j
+  - event X
+  - appends to history
+  - return new commitment
+- H.incr.gen(C_i, C_j) -> P
+  - return incremental proof between C_i and C_j, i<j
+- H.membership.gen(i, C_j) -> (P, X_i)
+  - return proof for event i from commitment C_j
+- P.Incr.Vf(C'_i, C_j) -> {T|F}
+  - return true if no divergence has been detected
+- P.Membership.Vf(i, C_j, X'_i) -> {T|F}
+  - return true if event X'_j is the ith event in the log defined by C_j
