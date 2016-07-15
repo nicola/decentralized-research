@@ -1,0 +1,32 @@
+Virtualchain
+------------
+
+Virtualchain
+- logical layer for multiplexing multiple fork consistent replicated state machine on top of blockchains (hashchains)
+- app nodes replay their journal to achieve application level consensus at each block
+- nodes agree on a block if and onlu if the application transactions in that block leave nodes in an identical state
+
+Consensus hash
+- enable nodes to independently audit and efficiently query their journals
+- migrate journals across blockchain
+- process
+  - nodes scan blockchain to determine good transactions
+- derived from accepted state transitions & geometric series of prior CH
+
+
+Blockchain
+- journal of state transition
+- append-only
+- replicated
+- totally ordered
+- tamper resistent
+
+Building applications on top of blockchains
+- use to bootstrap global state (secure, decentralized)
+- challenge 1
+  - blockchain can go offline, consensus can get centralized
+  - application journals should be migrateable
+  - crosschain migrations
+- challenge 2
+  - app jorunal can be forked, corrupted by underlining blockchains
+  - on forks we have inconsistent branches

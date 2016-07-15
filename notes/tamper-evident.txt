@@ -1,4 +1,9 @@
 Tamper evident logs
+- clients can detect if:
+  - byz logger is misbehaving
+  - not logging events
+  - removing unaudited events
+  - forking event
 -------------------
 
 SUNDR & Version Vectors
@@ -65,21 +70,37 @@ Merkle tree
 - logarithmic path lengths from root to leaves
 
 Hashchain
-- incremental or membership proof between two commitment taken O(n)
+- incremental or membership proof between two commitment take O(n)
 - feasible only if
   - event in low volume
   - every auditor is receiving every event (why not in history trees?)
 
+Skip list log
+- hashchain with skip links that hop over many nodes (good for log-lookups)
+- problem: to verify internal consistency, auditor must receive every incremental or membership proof
+- each auditor eventually receives every event in the log
+
 (Merkle) History Tree
 - frequent auditing is required
+- better than hashchain and skiplist in
+  - proof generation time
+  - proof size (especially since auditors can only audit a subset)
 - versioned computation of hashes over the merkle tree (to efficiently prove log snapshots)
 - each merkle tree has a consistent root hash
 - tree-based history data structure
   - logarithmic for all auditing and lookup operation
   - loggers can efficiently prove their sequence makes consistent claims
+- auditing strategy:
+  - not every auditor needs to audit everything
+  - occasionally exchanging committments with other auditors to ensure no fork occurred (how to find which fork is the right one?)
+  - tamper evident if client gossip commitment to at least one honest auditor
+- compared to hashchain and skip lists
+  - complexity advantage in adding new events
 
 
 Merkle Aggregation
+- permits logger to perform authorized purges & detect unauthorized deletions: safe deletions
+- 
 
 --
 
