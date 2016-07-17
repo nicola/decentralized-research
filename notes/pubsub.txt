@@ -1,0 +1,35 @@
+PubSub
+------
+
+- Reliability
+- 
+
+ACKs and NACKs
+
+Rabin information dispersal algorithms
+- linear combination, 
+- (matrix crypto)
+
+Fountain codes
+- stream of pieces
+- suppose a big stream - first packet is missed - now have to wait
+- threshold encryption (fountain encryption)
+
+Erasure coding
+- XOR the messages and send
+- if have the other two recover the other one
+
+Multicast (Morris)
+
+Kademlia
+
+Online codes and Perpetual codes
+- cache performance
+
+Pubsub to unicast, multicast, gossip
+
+Cast-tree forming
+- DHT dont perform network optimizations
+- User controls the network
+
+
