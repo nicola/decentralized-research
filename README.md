@@ -1,7 +1,7 @@
 # reading-list
 Papers I am reading
 
-Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
+Suggest a paper for me to read by [opening an issue](https://github.com/nicola/reading-list/issues/new).
 
 
 ## June 2016 
