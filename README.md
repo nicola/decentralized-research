@@ -4,6 +4,15 @@ Papers I am reading
 Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
 
+## Aug 2016 
+
+-  *{A Conflict-Free Replicated JSON Datatype}*, undefined
+
+## July 2016 
+
+-  *{Efficient Data Structures for Tamper-Evident Logging}*, 2009
+-  *{Tendermint: Byzantine Fault Tolerance in the Age of Blockchains}*, 2016
+
 ## June 2016 
 
 -  **Inclusive Block Chain Protocols**, Yoad  Lewenberg and               Yonatan Sompolinsky and
