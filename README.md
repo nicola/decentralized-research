@@ -6,7 +6,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## Aug 2016 
 
--  *{A Conflict-Free Replicated JSON Datatype}*, undefined
+-  *A Conflict-Free Replicated JSON Datatype*, 2016
 
 ## July 2016 
 
