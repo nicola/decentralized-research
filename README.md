@@ -7,9 +7,12 @@
 - [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)
 - [Ask any question](https://github.com/nicola/reading-list/issues/new)
 
---
+---
 
 # reading-list
+Papers I am reading
+
+Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
 ## Aug 2016 
 

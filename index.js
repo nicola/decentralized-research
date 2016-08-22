@@ -23,9 +23,10 @@ console.log('- [Suggest me a papers to read](https://github.com/nicola/reading-l
 console.log('- [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)')
 console.log('- [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)')
 console.log('- [Ask any question](https://github.com/nicola/reading-list/issues/new)')
-console.log('\n--\n')
+console.log('\n---\n')
 console.log('# reading-list')
-
+console.log('Papers I am reading\n')
+console.log('Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)')
 const folders = fs.readdirSync('./bibs').filter(f => f !== '.DS_Store')
 folders.reverse().forEach(folder => {
   console.log('\n##', folder.replace(/^[0-9]+ /, ''), '\n')
