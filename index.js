@@ -16,9 +16,13 @@ function formatTitle (titleString) {
   return titleString.replace(/ +/, ' ').replace(/\{\}/, '*')
 }
 
-console.log('# reading-list')
-console.log('Papers I am reading\n')
-console.log('Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)\n')
+console.log('# decentralized-research')
+console.log('> This started as reading list of academic papers, now the place where I take notes, write ideas and plan research and collaborate with others\n')
+console.log('##### How to participate')
+console.log('- Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)\n')
+console.log('- Help me out figuring [out stuff](https://github.com/nicola/reading-list/issues)')
+console.log('- Read/Contribute to my [notes](https://github.com/nicola/reading-list/tree/master/notes)')
+console.log('- Please [ask any question](https://github.com/nicola/reading-list/issues/new)')
 
 const folders = fs.readdirSync('./bibs').filter(f => f !== '.DS_Store')
 folders.reverse().forEach(folder => {
