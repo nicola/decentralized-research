@@ -1,11 +1,13 @@
-# decentralized-research
-> This started as reading list of academic papers, now the place where I take notes, write ideas and plan research and collaborate with others
+# [nicola](http://nicola.io)'s decentralized-research
+> This is the place where I take notes, write ideas and plan research and collaborate with others
 
 ##### How to participate
-- Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
-- Help me out figuring [out stuff](https://github.com/nicola/reading-list/issues)
-- Read/Contribute to my [notes](https://github.com/nicola/reading-list/tree/master/notes)
-- Please [ask any question](https://github.com/nicola/reading-list/issues/new)
+- [Suggest me a papers to read](https://github.com/nicola/reading-list/issues/new)
+- [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)
+- [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)
+- [Ask any question](https://github.com/nicola/reading-list/issues/new)
+--
+## reading-list
 
 ## Aug 2016 
 
