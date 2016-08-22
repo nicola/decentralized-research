@@ -16,8 +16,8 @@ function formatTitle (titleString) {
   return titleString.replace(/ +/, ' ').replace(/\{\}/, '*')
 }
 
-console.log("# [nicola](http://nicola.io)'s decentralized-research")
-console.log('> This is the place where I take notes, write ideas and plan research and collaborate with others\n')
+console.log("# 📖  [nicola](http://nicola.io)'s decentralized-research")
+console.log('> This is the place where I list papers I am reading, take notes, write ideas and plan research and collaborate with others\n')
 console.log('##### How to participate')
 console.log('- [Suggest me a papers to read](https://github.com/nicola/reading-list/issues/new)')
 console.log('- [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)')

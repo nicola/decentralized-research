@@ -1,5 +1,5 @@
-# [nicola](http://nicola.io)'s decentralized-research
-> This is the place where I take notes, write ideas and plan research and collaborate with others
+# 📖  [nicola](http://nicola.io)'s decentralized-research
+> This is the place where I list papers I am reading, take notes, write ideas and plan research and collaborate with others
 
 ##### How to participate
 - [Suggest me a papers to read](https://github.com/nicola/reading-list/issues/new)
