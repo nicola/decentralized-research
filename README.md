@@ -20,8 +20,8 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## July 2016 
 
--  *{Efficient Data Structures for Tamper-Evident Logging}*, 2009
--  *{Tendermint: Byzantine Fault Tolerance in the Age of Blockchains}*, 2016
+-  *Efficient Data Structures for Tamper-Evident Logging*, 2009
+-  *Tendermint: Byzantine Fault Tolerance in the Age of Blockchains*, 2016
 
 ## June 2016 
 
@@ -35,7 +35,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  *The Next 700 {BFT} Protocols*, 2015
 -  *State Machine Replication for the Masses with {BFT-SMART}*, 2014
 -  *Consensus in a Box: Inexpensive Coordination in Hardware*, 2016
--  *{Scalability! But at what COST?}*, 2015
+-  *Scalability! But at what COST?*, 2015
 
 ## May 2016 
 

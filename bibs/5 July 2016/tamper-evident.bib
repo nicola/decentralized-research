@@ -1,10 +1,9 @@
 @article{Crosby2009,
 abstract = {Many real-world applications wish to collect tamper- evident logs for forensic purposes. This paper considers the case of an untrusted logger, serving a number of clients who wish to store their events in the log, and kept honest by a number of auditors who will challenge the logger to prove its correct behavior. We propose semantics of tamper-evident logs in terms of this auditing process. The logger must be able to prove that individual logged events are still present, and that the log, as seen now, is consistent with how it was seen in the past. To accomplish this efficiently, we describe a tree-based data structure that can generate such proofs with logarithmic size and space, improving over previous linear con- structions. Where a classic hash chain might require an 800 MB trace to prove that a randomly chosen event is in a log with 80 million events, our prototype returns a 3 KB proof with the same semantics. We also present a flexible mechanism for the log server to present authenticated and tamper-evident search results for all events matching a predicate. This can allow large-scale log servers to selectively delete old events, in an agreed-upon fashion, while generating efficient proofs that no inappropriate events were deleted. We describe a prototype imple- mentation and measure its performance on an 80 million event syslog trace at 1,750 events per second using a single CPU core. Performance improves to 10,500 events per second if cryptographic signatures are offloaded, corresponding to 1.1 TB of logging throughput per week.},
 author = {Crosby, Scott and Wallach, Dan},
-file = {:Users/mozilla/Google Drive/Uni/Papers/research/crosby.pdf:pdf},
 journal = {Proceedings of the 19th USENIX Security Symposium},
 pages = {1--17},
-title = {{Efficient Data Structures for Tamper-Evident Logging}},
+title = {Efficient Data Structures for Tamper-Evident Logging},
 url = {http://www.usenix.org/event/sec09/tech/full{\_}papers/crosby.pdf$\backslash$npapers2://publication/uuid/769FDE5E-44AC-470C-9826-216D17DBA497},
 year = {2009}
 }
