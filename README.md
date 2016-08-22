@@ -17,6 +17,7 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 ## Aug 2016 
 
 -  **A Conflict-Free Replicated JSON Datatype**, Kleppmann,  Martin and Beresford, Alastair R, 2016
+-  **PAG: Private and Accountable Gossip**, Decouchant,  J{\'e}r{\'e}mie and Ben Mokhtar, Sonia and Qu{\'e}ma, Vivien, 2016
 
 ## July 2016 
 
