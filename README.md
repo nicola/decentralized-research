@@ -2,7 +2,7 @@
 > This is the place where I list papers I am reading, take notes, write ideas and plan research and collaborate with others
 
 ##### How to participate
-- [Suggest me a papers to read](https://github.com/nicola/reading-list/issues/new)
+- [Suggest papers to read](https://github.com/nicola/reading-list/issues/new)
 - [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)
 - [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)
 - [Ask any question](https://github.com/nicola/reading-list/issues/new)
@@ -12,7 +12,7 @@
 # reading-list
 Papers I am reading
 
-Suggest a paper for me to read by [opening an issue](https://github.com/nicola/reading-list/issues/new).
+Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
 ## Aug 2016 
 
