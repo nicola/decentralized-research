@@ -3,7 +3,6 @@
 
 ##### How to participate
 - Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
-
 - Help me out figuring [out stuff](https://github.com/nicola/reading-list/issues)
 - Read/Contribute to my [notes](https://github.com/nicola/reading-list/tree/master/notes)
 - Please [ask any question](https://github.com/nicola/reading-list/issues/new)
