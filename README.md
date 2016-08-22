@@ -16,11 +16,11 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## Aug 2016 
 
--  *A Conflict-Free Replicated JSON Datatype*, 2016
+-  **A Conflict-Free Replicated JSON Datatype**, Kleppmann,  Martin and Beresford, Alastair R, 2016
 
 ## July 2016 
 
--  *Efficient Data Structures for Tamper-Evident Logging*, 2009
+-  **Efficient Data Structures for Tamper-Evident Logging**, Crosby,  Scott and Wallach, Dan, 2009
 -  *Tendermint: Byzantine Fault Tolerance in the Age of Blockchains*, 2016
 
 ## June 2016 
