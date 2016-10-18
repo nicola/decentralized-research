@@ -16,6 +16,9 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## Oct 2016 
 
+-  *Publishing without publishers: a decentralized approach to dissemination, retrieval, and archiving of data*, 2015
+-  *Trusty URIs: Verifiable, immutable, and permanent digital artifacts for linked data*, 2014
+-  *Publishing without publishers: a decentralized approach to dissemination, retrieval, and archiving of data*, 2015
 
 ## Sept 2016 
 
