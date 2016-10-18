@@ -14,6 +14,16 @@ Papers I am reading
 
 Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
+## Oct 2016 
+
+
+## Sept 2016 
+
+-  *Enhancing Bitcoin Security and Performance with Strong Consistency
+               via Collective Signing*, 2016
+-  *Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
+               Structure*, 2015
+
 ## Aug 2016 
 
 -  **A Conflict-Free Replicated JSON Datatype**, Kleppmann,  Martin and Beresford, Alastair R, 2016
@@ -86,15 +96,11 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 -  *Impossibility of Distributed Consensus with One Faulty Process*, 1985
 -  *Experiences with CoralCDN: {A} Five-Year Operational View*, 2010
 -  *Vuvuzela: scalable private messaging resistant to traffic analysis*, 2015
--  *Enhancing Bitcoin Security and Performance with Strong Consistency
-               via Collective Signing*, 2016
 -  *How to Use Bitcoin to Incentivize Correct Computations*, 2014
 -  *Secure Untrusted Data Repository {(SUNDR)}*, 2004
 -  *Cachet: a decentralized architecture for privacy preserving social
                networking with caching*, 2012
 -  *Extended Functionality in Verifiable Searchable Encryption*, 2015
--  *Balloon: {A} Forward-Secure Append-Only Persistent Authenticated Data
-               Structure*, 2015
 -  *Practical Robust Communication in DHTs Tolerating a Byzantine Adversary*, 2010
 -  *Equihash: Asymmetric proof-of-work based on the generalized birthday problem*, 2016
 -  *CONIKS: Bringing Key Transparency to End Users*, 2015
