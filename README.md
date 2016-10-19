@@ -3,7 +3,7 @@
 
 ##### How to participate
 - [Suggest papers to read](https://github.com/nicola/reading-list/issues/new)
-- [Check on-going research/reading](https://github.com/nicola/reading-list/issues/new)
+- [Check on-going research/reading](https://github.com/nicola/reading-list/issues)
 - [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)
 - [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)
 - [Ask any question](https://github.com/nicola/reading-list/issues/new)
