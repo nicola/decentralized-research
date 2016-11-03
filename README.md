@@ -17,11 +17,11 @@ Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/
 
 ## Oct 2016 
 
--  **{On the Cost of Authenticated Data Structures}**, Triandopoulos,  RTN, 2003
+-  **On the Cost of Authenticated Data Structures**, Triandopoulos,  RTN, 2003
 -  **Trusty URIs: Verifiable, immutable, and permanent digital artifacts for linked data**, Kuhn,  Tobias and Dumontier, Michel, 2014
 -  *Making digital artifacts on the web verifiable and reliable*, 2015
--  *{Authenticating Web content with prooflets}*, 2002
--  *{Verena : End-to-End Integrity Protection for Web Applications}*, 2016
+-  *Authenticating Web content with prooflets*, 2002
+-  *Verena : End-to-End Integrity Protection for Web Applications*, 2016
 -  *Publishing without publishers: a decentralized approach to dissemination, retrieval, and archiving of data*, 2015
 
 ## Sept 2016 
