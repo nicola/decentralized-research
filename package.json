@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nicola/reading-list",
   "dependencies": {
-    "bibtex-parse-js": "0.0.22"
+    "bibtex-parse-js": "0.0.22",
+    "captain-log": "^0.1.2"
   }
 }

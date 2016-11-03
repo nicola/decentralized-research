@@ -1,3 +1,4 @@
+const captain = require('captain-log')
 const parse = require('bibtex-parse-js').toJSON
 const fs = require('fs')
 const path = require('path')
@@ -50,3 +51,13 @@ folders.reverse().forEach(folder => {
       console.log('- ', `${separator}${formatTitle(obj.entryTags.title)}${separator}, ` + (relevant ? `${formatAuthors(obj.entryTags.author)}, ` : '') + `${obj.entryTags.year}`)
     })
 })
+
+/*
+captain([{
+  title: 'Learning material',
+  repo: 'nicola/decentralized-research',
+  labels: ['learn'],
+  prefix: '🗒 ',
+  issueLink: true
+}])
+*/
