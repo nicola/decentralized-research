@@ -15,6 +15,14 @@ Papers I am reading
 
 Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
 
+## Nov 2016 
+
+-  **CS proofs**, Micali,  Silvio, 1994
+-  **Rational proofs**, Azar,  Pablo Daniel and Micali, Silvio, 2012
+-  *There is more consensus in egalitarian parliaments*, 2013
+-  *Paxos made moderately complex*, 2015
+-  *Rational sumchecks*, 2016
+
 ## Oct 2016 
 
 -  **On the Cost of Authenticated Data Structures**, Triandopoulos,  RTN, 2003
