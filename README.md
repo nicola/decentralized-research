@@ -5,12 +5,13 @@
 - [Suggest papers to read](https://github.com/nicola/reading-list/issues/new)
 - [Check on-going research/reading](https://github.com/nicola/reading-list/issues)
 - [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)
-- [Read to my notes](https://github.com/nicola/reading-list/tree/master/notes)
 - [Ask any question](https://github.com/nicola/reading-list/issues/new)
+
+> **Note**: New reading list for November 2017 [here](https://github.com/nicola/decentralized-research/issues/30)
 
 ---
 
-# reading-list
+# reading-list (archived from 2016)
 Papers I am reading
 
 Suggest me a paper by [opening an issue](https://github.com/nicola/reading-list/issues/new)
