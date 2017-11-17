@@ -7,7 +7,7 @@
 - [Help me out figure out stuff](https://github.com/nicola/reading-list/issues)
 - [Ask any question](https://github.com/nicola/reading-list/issues/new)
 
-> **Note**: New reading list for November 2017 [here](https://github.com/nicola/decentralized-research/issues/30)
+###  November 2017 [Reading List](https://github.com/nicola/decentralized-research/issues/30)
 
 ---
 
